@@ -27,8 +27,8 @@ main {
     background-color: #F5F5F5;
     width: 90%;
     height: 85%;
-    max-height: 600px;
-    max-width: 600px;
+    max-height: 500px;
+    max-width: 500px;
     border-radius: 10px;
     display: flex;
     align-items: center;
