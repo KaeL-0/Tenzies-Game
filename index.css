@@ -25,8 +25,8 @@ div#root{
 
 main {
     background-color: #F5F5F5;
-    width: 600px;
-    height: 600px;
+    width: 90%;
+    height: 85%;
     max-height: 400px;
     max-width: 400px;
     border-radius: 10px;
@@ -132,9 +132,9 @@ button#roll:active{
     border: 0;
 }
 
-@media (max-width: 768px){
+@media (min-width: 768px){
     main{
-        width: 90%;
-        height: 85%;
+        width: 600px;
+        height: 600px;
     }
 }
