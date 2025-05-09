@@ -25,8 +25,8 @@ div#root{
 
 main {
     background-color: #F5F5F5;
-    width: 90%;
-    height: 85%;
+    width: 600px;
+    height: 600px;
     max-height: 400px;
     max-width: 400px;
     border-radius: 10px;
@@ -51,8 +51,6 @@ main {
     text-align: center;
     margin-bottom: 5px;
 }
-
-
 
 .stopwatch{
     margin: 0;
@@ -132,4 +130,11 @@ button#roll:active{
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
+}
+
+@media (max-width: 768px){
+    main{
+        width: 90%;
+        height: 85%;
+    }
 }
