@@ -1,19 +1,22 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Tenzies Game
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+**Tenzies** is a fun and engaging dice game where the goal is to roll all ten dice to the same number in the fewest rolls possible. Players click on individual dice to lock them in place, trying to match all the dice to one number. The game tracks the number of rolls and time it takes to win, adding a competitive aspect to the game. It’s a great way to pass the time while challenging yourself to improve your score!
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Features:
+- Roll all 10 dice and try to get the same number on all of them.
+- Lock dice in place to keep them from rolling again.
+- Track the number of rolls and time taken to win.
+- Reset the game to start over whenever needed.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Instructions:
+1. Click on a die to "lock" it in place once it matches the number you’re targeting.
+2. Continue rolling the unlocked dice until all dice show the same number.
+3. The game ends once all dice show the same number.
 
-Happy Coding!
+## Technologies Used:
+- **React** for the user interface.
+- **CSS** for styling.
+- **JavaScript** for game logic.
+
+Enjoy the challenge and try to beat your previous score!
+
