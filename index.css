@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #0B2434;
+    height: 100%;
+    width: 100%;
+}
+
+div#root{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: #F5F5F5;
+    width: 90%;
+    height: 85%;
+    max-height: 400px;
+    max-width: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    font-family: Karla, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.instructions{
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+.stopwatch{
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.rolls{
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+div#diceContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+button{
+    font-family: Karla, sans-serif;
+    cursor: pointer;
+}
+
+
+#diceContainer button{
+    width: 40px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #2B283A;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px 0.5px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 1px 2px 0.5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 1px 2px 0.5px rgba(0,0,0,0.15);
+}
+
+#diceContainer button:active{
+    border: 3px solid lightblue;
+}
+
+button#roll{
+    width: auto;
+    height: 50px;
+    white-space: nowrap;
+    padding: 6px 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: #5035FF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.25);
+}
+
+button#roll:active{
+    border: 3px solid lightblue;
+}
+
+.srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
